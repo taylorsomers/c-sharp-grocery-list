@@ -1,10 +1,9 @@
 using System;
-using System.Collections.Generic; //remove if not using Dictionary in app //
 
-class Program
+class GroceryList
 {
   static void Main()
   {
-    
+    string[] myGroceryList = {"eggs", "milk", "bread", "bananas", "cereal", "rice", "yogurt"};
   }
 }
