@@ -8,9 +8,9 @@ class GroceryList
     int[] groceryListPrices = {3, 6, 4, 2, 4, 4};
 
     Console.WriteLine("My grocery list:");
-    foreach (string groceryItem in myGroceryList)
+    for (int index = 0; index < myGroceryList.Length; index++)
     {
-      Console.WriteLine(groceryItem);
+      Console.WriteLine(myGroceryList[index]);
     }
 
     int total = 0;
